@@ -41,7 +41,7 @@ public class BookDetail_jsp extends HttpJspBase {
 
 		String userNumber = request.getParameter("Number"); 
 
-		printSanitizedName(userNumber);
+		//printSanitizedName(userNumber);
 		
 	}
 
@@ -49,7 +49,7 @@ public class BookDetail_jsp extends HttpJspBase {
 
 		String userField = request.getParameter("Field"); 
 
-		printSanitizedName(userField);
+		//printSanitizedName(userField);
 	}
 
 	public static void loadComments () {
